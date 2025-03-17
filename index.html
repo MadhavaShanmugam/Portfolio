@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#home" class="logo">Madhav</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>MadhavaShanmugam</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am a Full Stack Developer with a passion for designing and building dynamic, user-friendly applications. I specialize in creating efficient backend systems and engaging frontend interfaces using technologies like Python, Django, React.</p>
+            <div class="social-media">
+                <a href="https://wa.me/7339691200"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/MadhavaShanmugam"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:mail2madhav1819@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:7339691200"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://www.linkedin.com/in/madhavashanmugam19/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="Madhav - Web Developer.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="img/resumepic-removebg-preview.png" alt="myimage">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/resumepic1.jpg" alt="Madhav's Profile Picture">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I am a motivated and results-driven Full Stack Python Developer with a passion for creating dynamic and user-centric web applications. I have experience working with both frontend and backend technologies, using frameworks like Django.</p>
+            <p>I completed my Bachelor's Degree in Electronics and Communication Engineering at RVS College of Engineering and Technology, Coimbatore (Aug 2019 - Jun 2023).</p>
+            <p>I am currently completing a Full Stack Python course at Appin Technology, where I have developed strong skills in HTML, CSS, Bootstrap, JavaScript, React.js, Python, Django, and SQL. Through hands-on projects and practical learning, I have gained comprehensive knowledge in both front-end and back-end development, preparing me for building dynamic and scalable web applications."</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>My <span>Skills</span></h2>
+        <div class="skills-container">
+            <!-- Frontend Skills -->
+            <div class="skills-category">
+                <h3>Frontend <span>Development</span></h3>
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="skills-category">
+                <h3>Backend <span>Development</span></h3>
+                <ul class="skills-list">
+                    <li>Python (Django)</li>
+                </ul>
+            </div>
+
+            <!-- Database Skills -->
+            <div class="skills-category">
+                <h3>Database <span>Technologies</span></h3>
+                <ul class="skills-list">
+                    <li>MySQL</li>
+                    <li>SQLite</li>
+                </ul>
+            </div>
+
+            <!-- DevOps & Tools -->
+            <div class="skills-category">
+                <h3>DevOps <span>&</span> Tools</h3>
+                <ul class="skills-list">
+                    <li>Git</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Proj<span>ects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="img/1.jpg" alt="Project 1">
+                <div class="projects-layer">
+                    <h4>Shopix.</h4>
+                    <p>An Attractive E-Commerce Website Using HTML,CSS,BOOTSTRAP,JAVASCIRPT.</p>
+                    <a href="https://madhavashanmugam.github.io/Frontend-Project/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="img/2.jpg" alt="Project 2">
+                <div class="projects-layer">
+                    <h4>Portfolio</h4>
+                    <p>A creative portfolio showcasing diverse projects, skills, and experiences to demonstrate expertise, innovation, and professional growth.</p>
+                    <a href="https://madhavashanmugam.github.io/Portfolio/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="img/3.jpg" alt="Project 3">
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, molestias nemo culpa non fugiat sed!</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#" id="contactform" onsubmit="sendEmail(event)">
+            <div class="input-box">
+                <input id="name" type="text" placeholder="Full Name" autocomplete="off" required>
+                <input id="email" type="email" placeholder="Email Address" autocomplete="off" required>
+                <input id="ph" type="tel" placeholder="Mobile Number" autocomplete="off" pattern="[0-9]+" required>
+                <input id="subject" type="text" placeholder="Email Subject" autocomplete="off">
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message" autocomplete="off" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Main Js -->
+    <script src="main.js"></script>
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</body>
+</html>
